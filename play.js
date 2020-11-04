@@ -57,7 +57,7 @@
     // Increase score if they win a round (based on true or false if statements above)  
     // Loops for 5 rounds.
         for (let i = 0; i < 5; i++) {
-          const  playerSelection = prompt('Choose your weapon: Rzock, Paper or Scissors?')
+          const  playerSelection = prompt('Choose your weapon: Rock, Paper or Scissors?')
           const computerSelection = computerPlay()
 
     // Result based on playerSelection vs ComputerSelection. 
